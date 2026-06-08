@@ -4,5 +4,5 @@ st.title("my live application")
 with st.sidebar:
   data = option_menu(
     menu_title = "my apps",
-    option=["Home", "About","Services"],
+    options=["Home", "About","Services"],
   )
